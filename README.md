@@ -9,7 +9,7 @@ A video chat web application supporting background removing using [Agora.io](htt
 - [Video Chat Web Application](#video-chat-web-application)
   * [Tools](#tools)
   * [Dependencies](#dependencies)
-  * [Why Agora.io?](#why-agoraio-)
+  * [Why Agora.io?](#why-agoraio)
   * [Deployment](#deployment)
   * [Changing Background](#changing-background)
   * [Author](#author)

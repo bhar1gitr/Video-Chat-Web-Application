@@ -62,7 +62,7 @@ npm install
 
 ## Changing Background
 - Changing background is done using the Agora Extension Virtual Background dependency, you can find the documentation [here](https://docs.agora.io/en/Video/virtual_background_web_ng?platform=Web)
-- **Note:** After choosing the file, you should press "Add Background" button
+- **Note:** After choosing the photo, you should press "Add Background" button
 ## Author
 - [Yousef Kotp](https://www.github.com/yousefkotp)
 

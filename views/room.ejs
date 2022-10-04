@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Chat</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/room.css">
+    </head>
+    <body>
+
+        <div id="stream-wrapper">
+            <div id="video-streams">
+            </div>
+    
+            <div id="stream-controls">
+                <button id="mic-btn">Mic On</button>
+                <button id="camera-btn">Camera on</button>
+                <button id="blur-btn">Blur</button>
+
+            </div>
+        </div>
+        <input id="fileInput" type="file" style="display:none;" />
+        <input id="file" type="button" value="Choose background image!" />
+        <input id="add-background" type="button" value="Add Background" />
+        <input id="remove-background" type="button" value="Remove Background" />
+        <h3>Your room ID is: <%=CHANNEL%></h3>
+        <script>
+            APP_ID="<%=APP_ID%>"
+            CHANNEL= "<%= CHANNEL%>"
+            TOKEN="<%=TOKEN %>"
+        </script>
+        
+        <script src="AgoraRTC_N-4.14.0.js"></script>
+        <script src="/node_modules/agora-extension-virtual-background/agora-extension-virtual-background.js"></script>
+        <script src="room.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>

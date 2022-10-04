@@ -53,7 +53,7 @@ npm install
 ```bash
   node server.js
 ```
-5. Open "http://localhost:3000" (or any port you which to deploy it on) in your browser
+5. Open "http://localhost:3000" (or any port you wish to deploy it on) in your browser
 - If you downloaded the project without adding "node_modules" in the project directory, you should run the following command:
 ```bash
   npm install

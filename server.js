@@ -10,8 +10,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-const APP_ID = process.env.APP_ID
-const APP_CERTIFICATE =process.env.APP_CERTIFICATE
+const APP_ID = process.env.APP_ID || '2d5cb06901a14cd89e72d71f2fed8141'
+const APP_CERTIFICATE =process.env.APP_CERTIFICATE || '324359458f7b46b89cf2519b90c2557f'
 var TOKEN= null
 var CHANNEL =null
 
